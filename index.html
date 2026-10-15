@@ -1033,6 +1033,10 @@
     .main-title { font-size: 2.8rem; }
     .form-row { flex-direction: column; }
   }
+  /* Mushroom Kingdom classroom shortcut */
+  .mushroom-link {display:flex;align-items:center;justify-content:center;gap:.7rem;width:100%;padding:1rem 1.25rem;border-radius:13px;background:linear-gradient(120deg,#16a34a,#0d9488);color:#fff;text-decoration:none;font-family:'Poppins',sans-serif;font-weight:800;font-size:1rem;box-shadow:0 5px 18px rgba(16,185,129,.16);transition:transform .2s,filter .2s}
+  .mushroom-link:hover {transform:translateY(-2px);filter:brightness(1.12)}
+  .mushroom-link:focus-visible {outline:3px solid #facc15;outline-offset:3px}
 </style>
 <link rel="icon" type="image/png" href="./favicon.png?v=2" />
 <link rel="apple-touch-icon" href="./favicon.png?v=2" />
@@ -1116,7 +1120,6 @@
     </div>
 
   </div>
-  <div class="kim-oyda-credits">Designed by Francis Marco Monilla</div>
 </div>
 
 <!-- ===== GAME SCREEN ===== -->
@@ -1373,6 +1376,16 @@
           <input type="range" min="3" max="20" value="8" id="smoothingSlider" oninput="updateSmoothing(this.value)" />
         </div>
       </div>
+    </div>
+
+    <!-- Mushroom Kingdom website (included in this project) -->
+    <div class="teacher-section">
+      <div class="section-title">
+        <div class="section-icon" style="background:linear-gradient(135deg,#22c55e,#0d9488);">🍄</div>
+        Mushroom Kingdom
+      </div>
+      <p style="font-size:.88rem;color:#a9b8cf;margin:0 0 1rem;line-height:1.6;">Open the Grade 7 Amethyst Mario-themed presentation and classroom activities.</p>
+      <a class="mushroom-link" href="mushroom-kingdom/index.html">🍄 Open Mushroom Kingdom ↗</a>
     </div>
 
     <!-- Danger zone: clear questions -->
@@ -2081,6 +2094,7 @@ function escHtml(str) {
   }
 </style>
 
+<div class="kim-oyda-credits">Designed by Francis Marco Monilla</div>
 
 <script>
   (function initAddons() {

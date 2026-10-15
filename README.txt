@@ -1,0 +1,1 @@
+Upload the CONTENTS of this folder into the same directory Render publishes for your TiltQuiz site. Keep the mushroom-kingdom folder and all slide images. The Teacher Panel button links to mushroom-kingdom/index.html. Render Static Site: build blank, publish directory . (if this folder is repository root).
